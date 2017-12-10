@@ -13,11 +13,13 @@ namespace txtChat
         public void LoadChat(string text)
         {
             chat_output.Text = text;
+            chat_output.SelectionStart = chat_output.Text.Length;
             chat_output.ScrollToCaret();
         }
         public void ReplaceChat(string text)
         {
             SetText(text);
+            SetSelection();
             BScroll();
         }
 
@@ -45,6 +47,7 @@ namespace txtChat
 
         private void BScroll()
         {
+            
             if (chat_output.InvokeRequired)
             {
                 SetBScrollCallback d = new SetBScrollCallback(chat_output.ScrollToCaret);
@@ -60,6 +63,7 @@ namespace txtChat
 
         private void SetText(string text)
         {
+           
             if (chat_output.InvokeRequired)
             {
                 SetTextCallback d = new SetTextCallback(SetText);
@@ -68,6 +72,21 @@ namespace txtChat
             else
             {
                 chat_output.Text = text;
+            }
+        }
+        delegate void SetSelectionCallback();
+        
+        private void SetSelection()
+        {
+            
+            if (chat_output.InvokeRequired)
+            {
+                SetSelectionCallback d = new SetSelectionCallback(SetSelection);
+                chat_output.Invoke(d);
+            }
+            else
+            {
+                chat_output.SelectionStart = chat_output.Text.Length;
             }
         }
     }
