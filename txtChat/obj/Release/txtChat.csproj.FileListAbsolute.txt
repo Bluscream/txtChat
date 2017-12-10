@@ -1,0 +1,8 @@
+D:\Dropbox\txtChat.exe.config
+D:\Dropbox\txtChat.exe
+C:\Users\blusc\source\Repos\txtChat\txtChat\obj\Release\txtChat.csprojResolveAssemblyReference.cache
+C:\Users\blusc\source\Repos\txtChat\txtChat\obj\Release\txtChat.ChatWindow.resources
+C:\Users\blusc\source\Repos\txtChat\txtChat\obj\Release\txtChat.Properties.Resources.resources
+C:\Users\blusc\source\Repos\txtChat\txtChat\obj\Release\txtChat.csproj.GenerateResource.Cache
+C:\Users\blusc\source\Repos\txtChat\txtChat\obj\Release\txtChat.csproj.CoreCompileInputs.cache
+C:\Users\blusc\source\Repos\txtChat\txtChat\obj\Release\txtChat.exe
