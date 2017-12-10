@@ -51,6 +51,7 @@ namespace txtChat
         {
             var content = File.ReadAllText(e.FullPath);
             Form.ReplaceChat(content);
+            System.Media.SystemSounds.Beep.Play();
         }
 
         /*public static void OnRenamed(object source, RenamedEventArgs e)

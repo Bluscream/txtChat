@@ -6,3 +6,9 @@ C:\Users\blusc\source\Repos\txtChat\txtChat\obj\Release\txtChat.Properties.Resou
 C:\Users\blusc\source\Repos\txtChat\txtChat\obj\Release\txtChat.csproj.GenerateResource.Cache
 C:\Users\blusc\source\Repos\txtChat\txtChat\obj\Release\txtChat.csproj.CoreCompileInputs.cache
 C:\Users\blusc\source\Repos\txtChat\txtChat\obj\Release\txtChat.exe
+D:\Visual Studio\source\repos\txtChat\txtChat\obj\Release\txtChat.csprojResolveAssemblyReference.cache
+D:\Visual Studio\source\repos\txtChat\txtChat\obj\Release\txtChat.ChatWindow.resources
+D:\Visual Studio\source\repos\txtChat\txtChat\obj\Release\txtChat.Properties.Resources.resources
+D:\Visual Studio\source\repos\txtChat\txtChat\obj\Release\txtChat.csproj.GenerateResource.Cache
+D:\Visual Studio\source\repos\txtChat\txtChat\obj\Release\txtChat.csproj.CoreCompileInputs.cache
+D:\Visual Studio\source\repos\txtChat\txtChat\obj\Release\txtChat.exe
