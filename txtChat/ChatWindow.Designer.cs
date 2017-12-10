@@ -36,6 +36,7 @@
             // 
             // btn_send
             // 
+            this.btn_send.ForeColor = System.Drawing.Color.Black;
             this.btn_send.Location = new System.Drawing.Point(797, 585);
             this.btn_send.Name = "btn_send";
             this.btn_send.Size = new System.Drawing.Size(75, 23);
@@ -46,6 +47,8 @@
             // 
             // chat_output
             // 
+            this.chat_output.BackColor = System.Drawing.Color.Black;
+            this.chat_output.ForeColor = System.Drawing.Color.LimeGreen;
             this.chat_output.Location = new System.Drawing.Point(13, 13);
             this.chat_output.Name = "chat_output";
             this.chat_output.ReadOnly = true;
@@ -55,6 +58,8 @@
             // 
             // chat_input
             // 
+            this.chat_input.BackColor = System.Drawing.Color.DimGray;
+            this.chat_input.ForeColor = System.Drawing.Color.LimeGreen;
             this.chat_input.Location = new System.Drawing.Point(13, 587);
             this.chat_input.Name = "chat_input";
             this.chat_input.Size = new System.Drawing.Size(778, 20);
@@ -64,10 +69,12 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(884, 620);
             this.Controls.Add(this.chat_input);
             this.Controls.Add(this.chat_output);
             this.Controls.Add(this.btn_send);
+            this.ForeColor = System.Drawing.Color.White;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
