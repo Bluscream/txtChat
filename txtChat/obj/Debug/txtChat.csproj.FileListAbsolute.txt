@@ -8,3 +8,13 @@ C:\Users\blusc\source\Repos\txtChat\txtChat\obj\Debug\txtChat.csproj.GenerateRes
 C:\Users\blusc\source\Repos\txtChat\txtChat\obj\Debug\txtChat.csproj.CoreCompileInputs.cache
 C:\Users\blusc\source\Repos\txtChat\txtChat\obj\Debug\txtChat.exe
 C:\Users\blusc\source\Repos\txtChat\txtChat\obj\Debug\txtChat.pdb
+C:\Users\PC\Source\Repos\txtChat\txtChat\bin\Debug\txtChat.exe.config
+C:\Users\PC\Source\Repos\txtChat\txtChat\bin\Debug\txtChat.exe
+C:\Users\PC\Source\Repos\txtChat\txtChat\bin\Debug\txtChat.pdb
+C:\Users\PC\Source\Repos\txtChat\txtChat\obj\Debug\txtChat.csprojResolveAssemblyReference.cache
+C:\Users\PC\Source\Repos\txtChat\txtChat\obj\Debug\txtChat.ChatWindow.resources
+C:\Users\PC\Source\Repos\txtChat\txtChat\obj\Debug\txtChat.Properties.Resources.resources
+C:\Users\PC\Source\Repos\txtChat\txtChat\obj\Debug\txtChat.csproj.GenerateResource.Cache
+C:\Users\PC\Source\Repos\txtChat\txtChat\obj\Debug\txtChat.csproj.CoreCompileInputs.cache
+C:\Users\PC\Source\Repos\txtChat\txtChat\obj\Debug\txtChat.exe
+C:\Users\PC\Source\Repos\txtChat\txtChat\obj\Debug\txtChat.pdb

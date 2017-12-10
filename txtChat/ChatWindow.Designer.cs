@@ -36,6 +36,7 @@
             // 
             // btn_send
             // 
+            this.btn_send.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.btn_send.ForeColor = System.Drawing.Color.Black;
             this.btn_send.Location = new System.Drawing.Point(797, 585);
             this.btn_send.Name = "btn_send";
@@ -47,12 +48,14 @@
             // 
             // chat_output
             // 
+            this.chat_output.AccessibleName = "chat_output";
             this.chat_output.BackColor = System.Drawing.Color.Black;
+            this.chat_output.Dock = System.Windows.Forms.DockStyle.Top;
             this.chat_output.ForeColor = System.Drawing.Color.LimeGreen;
-            this.chat_output.Location = new System.Drawing.Point(13, 13);
+            this.chat_output.Location = new System.Drawing.Point(0, 0);
             this.chat_output.Name = "chat_output";
             this.chat_output.ReadOnly = true;
-            this.chat_output.Size = new System.Drawing.Size(859, 566);
+            this.chat_output.Size = new System.Drawing.Size(884, 566);
             this.chat_output.TabIndex = 1;
             this.chat_output.Text = "";
             // 

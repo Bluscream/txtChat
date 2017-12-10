@@ -19,10 +19,10 @@ namespace txtChat
             Form = new ChatWindow();
             CreateFileWatcher();
             var content = File.ReadAllText(filepath);
-            Form.ReplaceChat(content);
+            Form.LoadChat(content);
             Application.Run(Form);
         }
-
+        
         public static void SendMessage(string msg)
         {
             msg = $"[{DateTime.Now.ToString("HH:mm:ss")}] {Environment.MachineName}: {msg}";
@@ -30,7 +30,7 @@ namespace txtChat
             //File.AppendAllText(Path.Combine(bindir, filename), msg + Environment.NewLine);
             File.AppendAllLines(filename, new string[] { msg });
         }
-
+        
         public static void CreateFileWatcher()
         {
             FileSystemWatcher watcher = new FileSystemWatcher
@@ -46,7 +46,7 @@ namespace txtChat
             watcher.Renamed += new RenamedEventHandler(OnRenamed);*/
             watcher.EnableRaisingEvents = true;
         }
-
+        
         public static void OnChanged(object source, FileSystemEventArgs e)
         {
             var content = File.ReadAllText(e.FullPath);
@@ -58,5 +58,7 @@ namespace txtChat
         {
             Console.WriteLine("File: {0} renamed to {1}", e.OldFullPath, e.FullPath);
         }*/
+       
+
     }
 }

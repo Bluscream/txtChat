@@ -12,3 +12,9 @@ D:\Visual Studio\source\repos\txtChat\txtChat\obj\Release\txtChat.Properties.Res
 D:\Visual Studio\source\repos\txtChat\txtChat\obj\Release\txtChat.csproj.GenerateResource.Cache
 D:\Visual Studio\source\repos\txtChat\txtChat\obj\Release\txtChat.csproj.CoreCompileInputs.cache
 D:\Visual Studio\source\repos\txtChat\txtChat\obj\Release\txtChat.exe
+C:\Users\PC\Source\Repos\txtChat\txtChat\obj\Release\txtChat.csprojResolveAssemblyReference.cache
+C:\Users\PC\Source\Repos\txtChat\txtChat\obj\Release\txtChat.ChatWindow.resources
+C:\Users\PC\Source\Repos\txtChat\txtChat\obj\Release\txtChat.Properties.Resources.resources
+C:\Users\PC\Source\Repos\txtChat\txtChat\obj\Release\txtChat.csproj.GenerateResource.Cache
+C:\Users\PC\Source\Repos\txtChat\txtChat\obj\Release\txtChat.csproj.CoreCompileInputs.cache
+C:\Users\PC\Source\Repos\txtChat\txtChat\obj\Release\txtChat.exe

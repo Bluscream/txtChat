@@ -10,12 +10,15 @@ namespace txtChat
             InitializeComponent();
             chat_input.KeyDown += new KeyEventHandler(chat_input_KeyDown);
         }
-
-        public void ReplaceChat(string text)
+        public void LoadChat(string text)
         {
             chat_output.Text = text;
-            chat_output.SelectionStart = chat_output.Text.Length;
             chat_output.ScrollToCaret();
+        }
+        public void ReplaceChat(string text)
+        {
+            SetText(text);
+            BScroll();
         }
 
         public void AppendChat(string[] lines)
@@ -37,5 +40,36 @@ namespace txtChat
                 chat_input.Clear();
             }
         }
+
+        delegate void SetBScrollCallback();
+
+        private void BScroll()
+        {
+            if (chat_output.InvokeRequired)
+            {
+                SetBScrollCallback d = new SetBScrollCallback(chat_output.ScrollToCaret);
+                chat_output.Invoke(d);
+            }
+            else
+            {
+
+                chat_output.ScrollToCaret();
+            }
+        }
+        delegate void SetTextCallback(string text);
+
+        private void SetText(string text)
+        {
+            if (chat_output.InvokeRequired)
+            {
+                SetTextCallback d = new SetTextCallback(SetText);
+                chat_output.Invoke(d, text);
+            }
+            else
+            {
+                chat_output.Text = text;
+            }
+        }
     }
 }
+
